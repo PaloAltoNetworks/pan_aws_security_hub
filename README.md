@@ -38,15 +38,15 @@ Setup
     Values show below are representative. Please change these to match your specific configuration. Please see 
     the description for these variables provided in the section below.
 
-    export FW_IP=192.168.55.10
-    export USERNAME='admin'
-    export PASSWORD='paloalto'
-    export UNTRUST_ZONE='L3-untrust'
-    export TRUST_ZONE='L3-trust'
-    export SECURITY_RULE_NAME='securityhub'
-    export RULE_ACTION='deny'
-    export GD_DAG_NAME='securitydag'
-    export FW_DAG_TAG='protect'
+    + export FW_IP=192.168.55.10
+    + export USERNAME='admin'
+    + export PASSWORD='paloalto'
+    + export UNTRUST_ZONE='L3-untrust'
+    + export TRUST_ZONE='L3-trust'
+    + export SECURITY_RULE_NAME='securityhub'
+    + export RULE_ACTION='deny'
+    + export GD_DAG_NAME='securitydag'
+    + export FW_DAG_TAG='protect'
 
 
 4. Description of the environment variables 
