@@ -51,15 +51,15 @@ Setup
 
 4. Description of the environment variables 
 
-    FW_IP: IP Address to communicate with the firewall
-    USERNAME: Username to authenticate with the firewall
-    PASSWORD: Password used for authentication
-    UNTRUST_ZONE: The name of the untrust zone as configured on the firewall
-    TRUST_ZONE: The name of the trust zone as configured on the firewall
-    SECURITY_RULE_NAME: A name for the security rule which will be created to enforce the findings from AWS Security Hub. 
-    RULE_ACTION: A valid value for the action to be taken on a security rule match. The suggested value is 'deny'
-    GD_DAG_NAME: A name for the Dynamic Address Group to create on the firewall, which will be associated with the security rule. 
-    FW_DAG_TAG: A name for a tag which will be used to register IP's with. 
+    + FW_IP: IP Address to communicate with the firewall
+    + USERNAME: Username to authenticate with the firewall
+    + PASSWORD: Password used for authentication
+    + UNTRUST_ZONE: The name of the untrust zone as configured on the firewall
+    + TRUST_ZONE: The name of the trust zone as configured on the firewall
+    + SECURITY_RULE_NAME: A name for the security rule which will be created to enforce the findings from AWS Security Hub. 
+    + RULE_ACTION: A valid value for the action to be taken on a security rule match. The suggested value is 'deny'
+    + GD_DAG_NAME: A name for the Dynamic Address Group to create on the firewall, which will be associated with the security rule. 
+    + FW_DAG_TAG: A name for a tag which will be used to register IP's with. 
 
 
 Invocation 
