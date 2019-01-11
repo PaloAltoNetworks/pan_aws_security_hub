@@ -2,14 +2,14 @@
 This implementation integrates the AWS Security Hub insights and makes it actionable on the VM-Series FW.
 
 
-# H1 Setup
+# Setup
 
-## H2 Setup AWS Credentials
+## Setup AWS Credentials
 
    Configure the AWS credentials using one of the options described in 
    ```https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/setup-credentials.html```
 
-## H2 Install pandevice 
+## Install pandevice 
 
     1a. pip install pandevice
 
@@ -29,13 +29,13 @@ This implementation integrates the AWS Security Hub insights and makes it action
 
     pip install --upgrade pandevice
 
-## H2 Install boto3
+## Install boto3
 
     2a. pip install boto3
 
     2b. Or install boto3 into the virtual environment as done if you followed 1b.
 
-## H2  Setup the Environment variables 
+## Setup the Environment variables 
 
     Cut and paste the following commands into your terminal to export these environment variables. 
     (Note: do not put it into a bash or shell script as that will not set the environment variables for your shell session.)
@@ -54,7 +54,7 @@ This implementation integrates the AWS Security Hub insights and makes it action
     + export FW_DAG_TAG='protect'
 
 
-## H2 Description of the environment variables 
+## Description of the environment variables 
 
     + FW_IP: IP Address to communicate with the firewall
     + USERNAME: Username to authenticate with the firewall
@@ -67,7 +67,7 @@ This implementation integrates the AWS Security Hub insights and makes it action
     + FW_DAG_TAG: A name for a tag which will be used to register IP's with. 
 
 
-# H1 Invocation 
+# Invocation 
 
 
 Prompt> ./pan_aws_security_hub.py
