@@ -3,7 +3,7 @@ This implementation integrates the AWS Security Hub insights and makes it action
 
 # Theory of Operation
 
-1. The ```pan_aws_security_hub``` python script upon invocation does the following:
+The ```pan_aws_security_hub``` python script upon invocation does the following:
 
 - interacts with AWS Security Hub and sources indicators of compromise. 
 - processes the indicators of compromise and extracts details such as IP and some metadata. 
