@@ -62,7 +62,8 @@ Setup
     FW_DAG_TAG: A name for a tag which will be used to register IP's with. 
 
 
-5. Invocation 
+Invocation 
+----------
 
-   Prompt> ./pan_aws_security_hub.py
+Prompt> ./pan_aws_security_hub.py
    
