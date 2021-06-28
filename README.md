@@ -1,3 +1,9 @@
+This Repository will be Archive. This repository will be deleted a week from 6/28/21 since we have a new Repository which addresses the same use case. Please use following Repository  PaloAltoNetworks/aws_security_hub moving forward. 
+
+
+
+
+
 # pan_aws_security_hub
 This implementation integrates the AWS Security Hub insights and makes it actionable on the VM-Series FW.
 
