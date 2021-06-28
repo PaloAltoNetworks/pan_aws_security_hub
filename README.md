@@ -1,4 +1,4 @@
-This Repository will be Archive. This repository will be deleted a week from 6/28/21 since we have a new Repository which addresses the same use case. Please use following Repository  PaloAltoNetworks/aws_security_hub moving forward. 
+This Repository will be Archive. This repository will be deleted in 10 days from 6/28/21 since we have a new Repository which addresses the same use case. Please use following Repository  PaloAltoNetworks/aws_security_hub moving forward. 
 
 
 
